@@ -14,16 +14,31 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
         android:text="@string/gumba"
-        android:textSize="30sp" />
+        android:textColor="#7f8c8d"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text="@string/stylex"
+        android:textSize="36sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image_coal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="65dp"
-        app:srcCompat="@drawable/coal"
-        android:contentDescription="TODO" />
+        android:contentDescription="gumbagumba"
+        app:srcCompat="@drawable/coal" />
 </RelativeLayout>
